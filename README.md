@@ -172,11 +172,16 @@ function for a logistic regression model. First, we show the
 linear probability model which is:
 
 <p align="center">
-<img src="eq5.png" width="125px">
+<img src="linear1.png" width="125px">
 </p>
 
 The problem with this model is that it can generate predicted
-values of the outcome that are less than zero or greater than one. 
+values of the outcome (see below) that are less than zero or greater than one.
+
+<p align="center">
+<img src="linear2.png" width="125px">
+</p>
+
 Most people prefer to use a logistic (or probit) regression
 estimator instead. To estimate a logistic regression model,
 we first define the logit as:
