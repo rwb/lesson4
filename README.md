@@ -172,14 +172,14 @@ function for a logistic regression model. First, we show the
 linear probability model which is:
 
 <p align="center">
-<img src="linear1.png" width="125px">
+<img src="linear1.png" width="250px">
 </p>
 
 The problem with this model is that it can generate predicted
 values of the outcome (see below) that are less than zero or greater than one.
 
 <p align="center">
-<img src="linear2.png" width="125px">
+<img src="linear2.png" width="200px">
 </p>
 
 Most people prefer to use a logistic (or probit) regression
