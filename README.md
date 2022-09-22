@@ -904,7 +904,8 @@ Number of Fisher Scoring iterations: 4
 ```
 
 Now, let's examine our other model selection criteria including the 
-Akaike Information Criterion (AIC) and the Bayesian Information Criterion (BIC).
+Akaike Information Criterion (AIC) and the Bayesian Information Criterion (BIC). Here is
+an important [link](http://yaroslavvb.com/papers/wasserman-bayesian.pdf).
 
 ```r
 # calculates aic and bic using formulas outlined by
@@ -1012,3 +1013,9 @@ with each other. The likelihood-ratio test and AIC would lead us to select the t
 model while the BIC would lead us to select the one-parameter model. Because circumstances
 like these can arise in practical situations, it is important to specify in advance what
 the criteria will be prior to analyzing the data.
+
+#### Assignment #2 - Due Monday 10/3/22
+
+1. Review the following [article](https://www.researchgate.net/profile/Alfred-Blumstein/publication/261671240_Criminal_Violence_of_NFL_Players_Compared_to_the_General_Population/links/56b407dd08ae5deb2657e8f0/Criminal-Violence-of-NFL-Players-Compared-to-the-General-Population.pdf); Note there are 509 players and 109 of the 509 players were arrested. Use maximum likelihood methods to calculate the arrest rate, the standard error of the arrest rate, and the 95% confidence interval for the arrest rate within this sample. Check on your results using the normal approximation to the binomial.
+2. Use the treatment-as-delivered data from the Minneapolis Domestic Violence Experiment to test the hypothesis that the arrest and no-arrest groups have the same failure rate. Use the grid-search method to calculate a likelihood ratio test; check on your results using standard logistic regression software. 
+3. Determine whether the likelihood ratio test in #2 leads us to the same substantive conclusions as the AIC and BIC calculations.
