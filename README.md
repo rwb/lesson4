@@ -140,7 +140,7 @@ peak of the likelihood function is 0.0583).
 
 ## Using Maximum Likelihood Methods to Test a Hypothesis ##
 
-Now, let's use the idea of likelihood to estimate the treatment
+Now, let's use the idea of likelihood to estimate a treatment
 effect. First, we estimate the proportion of people who fail in the
 arrest group:
 
